@@ -1,0 +1,59 @@
+<html>
+<head>
+    <title>Login</title>
+</head>
+<body>
+    <table border="1" bgcolor="red" width="100%">
+        <tr>
+            <th><font color="white">Cadastro</font></th>
+        </tr>
+    </table>
+    <form name="conta" method="POST">
+        <h4>Crie sua conta</h4>
+        <table width="100%">
+            <tr>
+                <td width="15%"><font size="3" face="arial"> E-mail</font></td>
+                <td><input type="text" name="codUnidade" size="5"></td>
+                <td><input type="text" name="email" size="80"></td>
+            </tr>
+            <tr>
+                <td width="15%"><font size="3" face="arial"> Senha</font></td>
+                <td><input type="text" name="codPrograma" size="5"></td>
+                <td><input type="text" name="senha" size="80"></td>
+            </tr>
+        </table>
+        <h4>Informações extras para login</h4>
+        <table width="100%">
+            <tr>
+                <td width="15%"><font size="3" face="arial">Primeiro nome</font></td>
+                <td><input type="text" name="nome" size="5"></td>
+            </tr>
+            <tr>
+                <td width="15%"><font size="3" face="arial">Data de aniversário</font></td>
+                <td><input type="text" name="data" size="100"></td>
+            </tr>
+            <tr>
+                <td width="15%"><font size="3" face="arial">Deseja receber notificações?</font></td>
+                <td>
+                    <select name="tipo">
+                        <option></option>
+                        <option value="1">SIM</option>
+                        <option value="2">NÃO</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td width="10%"><font size="3" face="arial">Cpf</font></td>
+                <td>
+                    <textarea name="cpf" cols="50" rows="3"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" colspan="2">
+                    <input type="submit" value="Salvar">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
